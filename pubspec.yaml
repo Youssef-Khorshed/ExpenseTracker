@@ -1,0 +1,46 @@
+name: expense_bud
+description: Expense tracker app.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.2+2
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  phosphor_flutter: ^2.1.0
+  provider: ^6.0.2
+  intl: ^0.19.0
+  dartz: ^0.10.1
+  get_it: ^7.2.0
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.8
+  auto_size_text: ^3.0.0
+  fl_chart: ^0.69.0
+  url_launcher: ^6.0.20
+  dio: ^4.0.4
+  awesome_notifications_core: ^0.10.0
+  awesome_notifications: ^0.10.0
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  hive_generator: ^1.1.2
+  build_runner: ^2.1.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Chillax
+      fonts:
+        - asset: assets/fonts/Chillax-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/Chillax-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Chillax-Light.ttf
+          weight: 300
